@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
 import PySimpleGUI as sg
 
-
+#лабораторная работа с графическим интерфейсом GUI
 elements = [[sg.Text('Поставщик'), sg.Push(), sg.Input(key='post')],
           [sg.Text('Номер партии'), sg.Push(), sg.Input(key='part')],
           [sg.Text('Название модели'), sg.Push(), sg.Input(key='name')],
